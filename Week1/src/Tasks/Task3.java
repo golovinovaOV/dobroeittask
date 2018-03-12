@@ -1,8 +1,5 @@
 package Tasks;
-
-/*
- * Создать программу, конвертирующую более узкий тип к более широкому.
- * */
+ 
 public class Task3 {
 
 	public static void main(String[] args) {

@@ -1,9 +1,5 @@
 package Tasks;
 
-/*
- * Создать переменную с произвольным символом. 
- * Конвертировать символ в число, и вывести результат на консоль.
- * */
 public class Task2 {
 
 	public static void main(String[] args) {

@@ -1,8 +1,5 @@
 package Tasks;
-/*
- * Запомнить 8 примитивных типов данных, их свойства и особенности. 
- * Создать по одной переменной каждого типа.
- * */
+
 public class Task5 {
 
 	public static void main(String[] args) {
