@@ -1,11 +1,5 @@
 package com.holovinova;
 
-/*
- * Написать метод, который получает на вход 3 числа и возвращает сумму лишь
- * положительных из них. К примеру, на вход 1, 100, -2 = 101(-2 -
- * отрицательное).
- */
-
 public class Task1 {
 	public static void main(String[] args) {
 		testPositiveNumberSum();

@@ -1,10 +1,5 @@
 package com.holovinova;
 
-/*
- * Написать функцию, принимающую на вход целое число, и возвращающую факториал
- * данного числа. *Написать две версии программы(итеративную и рекурсивную).
- */
-
 public class Task4 {
 	public static void main(String[] args) {
 		int number = 9;

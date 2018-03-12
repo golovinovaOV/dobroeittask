@@ -2,11 +2,6 @@ package com.holovinova;
 
 import java.util.Arrays;
 
-/*
- * Ќаписать метод, который принимает на вход массив целых чисел и возвращает
- * сумму тех, которые дел€тс€ на 2 без остатка.
- */
-
 public class Task2 {
 	public static void main(String[] args) {
 		testMultiplesOfTwoSum();
