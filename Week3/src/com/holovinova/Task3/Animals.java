@@ -5,14 +5,15 @@ import java.util.*;
 import com.holovinova.Task1.Animal;
 
 public class Animals {
+	
+	private static char[] vowels = {'a', 'e', 'o', 'u', 'y', 'i'};
 
 	// remove animals with 1 > age and age >8
 	// and whose name has more than 4 consonants
 	public static Animal[] removeAnimalByAgeAndByName(Animal[] animals) {
 		// array for animal that don't match to condition
 		Animal[] goodAgeAnimals = null;
-		char[] animalName;
-		char[] vowels = {'a', 'e', 'o', 'u', 'y', 'i'};
+		char[] animalName = null;		
 		int vowelsCount = 0;
 		// go through all animals in array
 		for (Animal animal : animals) {
@@ -20,6 +21,8 @@ public class Animals {
 			if (animal.getAge() >= 1 && animal.getAge() < 9) {
 				// get name of animal (convert it to char array)
 				animalName = animal.getName().toCharArray();
+				// set vowels counter to 0 for each animal name
+				vowelsCount = 0;
 				// go through animal name
 				for(int i = 0; i < animalName.length; i++) {
 					for (int j = 0; j < vowels.length; j++) {
