@@ -6,7 +6,7 @@ public class NumberTask {
 
 	public static void main(String[] args) {
 		int[][] numbers = { 
-							{ 5, 3, 7, 3, 1, 9, 2, 9, 0, 4, 9 }, 
+							{ 5, 3, 7, 3, 1, 9, 2, 9, 0, 4, 0 }, 
 							{ 5, 3, 7, 3, 1, 9, 2, 9, 0, 4, 101 },
 							{ -1, 3, 7, 3, 1, 9, 2, 9, 0, 4, 100 } 
 						};
@@ -53,8 +53,6 @@ public class NumberTask {
 			throw new IllegalArgumentException("Argument can't be null!");
 		}
 
-		// counter for occurrence of each index as element in inArray array
-		int numberCounter;
 		// maximum value in array
 		int maxIndex;
 		// minimum value in array
@@ -87,18 +85,8 @@ public class NumberTask {
 		// element in inArray array
 		result = new int[maxIndex + 1];
 		// go through all indexes
-		for (int i = 0; i <= maxIndex; i++) {
-			// set counter to zero for each index in the beginning of counting
-			numberCounter = 0;
-			// go through all elements of array
-			for (int j = 0; j < inArray.length; j++) {
-				// count if index found as element of the array
-				if (i == inArray[j]) {
-					numberCounter++;
-				}
-			}
-			// save result of counting
-			result[i] = numberCounter;
+		for (int i = 0; i < inArray.length; i++) {
+			result[inArray[i]]++;
 		}
 		return result;
 
