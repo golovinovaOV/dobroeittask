@@ -1,4 +1,4 @@
-package com.holovinova.Tack1;
+package com.holovinova.Task1;
 
 import com.holovinova.Cat;
 import com.holovinova.Dog;
