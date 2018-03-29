@@ -82,25 +82,25 @@
 ### Task 1 
  Сделать так, чтобы животные одинакового типа и с одинаковым возрастом и именем при проверке на equals были распознаны, как одинаковые.
 
-* [Solution](https://github.com/golovinovaOV/dobroeittask/blob/master/Week4/src/com/holovinova/Task1/TestEquals)
+* [Solution](https://github.com/golovinovaOV/dobroeittask/blob/master/Week4/src/com/holovinova/Task1/TestEquals.java)
 
 ### Task 2 
 
 Реализовать метод toString() в супертипе, чтобы он печатал информацию о типе животного, возрасте и имени.
 
-* [Solution](https://github.com/golovinovaOV/dobroeittask/blob/master/Week4/src/com/holovinova/Task2/TestToString)
+* [Solution](https://github.com/golovinovaOV/dobroeittask/blob/master/Week4/src/com/holovinova/Task2/TestToString.java)
 
 ### Task 3 
 Создать реализации метода void dyingVoice() в Cat и Dog. Метод должен печатать на консоль звук, издаваемый животным перед смертью(можно выбрать любой). Сделать так, чтобы метод вызывался на животном перед его уничтожением сборщиком мусора. Спровоцировать выполнение сборщика мусора(создать очень много объектов, на которые нет ссылок). Убедиться, что животных слышно перед смертью.
 
-* [Solution](https://github.com/golovinovaOV/dobroeittask/blob/master/Week4/src/com/holovinova/Task3/TestGarbageCollector)
+* [Solution](https://github.com/golovinovaOV/dobroeittask/blob/master/Week4/src/com/holovinova/Task3/TestGarbageCollector.java)
 
 ### Task 4 
 Создать статический метод, который принимает на вход объект, и возвращает строку, содержащую имя класса данного объекта.
 
-* [Solution](https://github.com/golovinovaOV/dobroeittask/blob/master/Week4/src/com/holovinova/Task4/TestClassName)
+* [Solution](https://github.com/golovinovaOV/dobroeittask/blob/master/Week4/src/com/holovinova/Task4/TestClassName.java)
 
 ### Task 5 
 Создать класс Fish, который будет наследовать Animal. При вызове метода voice, рыба должна выбрасывать NotImplementedException. Добавить несколько рыб в массив с разными животными. Проитерироваться по массиву, и вызвать метод voice на каждом животном. Подсчитать, сколько раз выпадет NotImplementedException, и вывести кол-во на консоль.
 
-* [Solution](https://github.com/golovinovaOV/dobroeittask/blob/master/Week4/src/com/holovinova/Task5/TestFish)
+* [Solution](https://github.com/golovinovaOV/dobroeittask/blob/master/Week4/src/com/holovinova/Task5/TestFish.java)
