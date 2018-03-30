@@ -7,9 +7,7 @@ public abstract class Animal {
 	protected String name = "Unknown";
 	// age of pet
 	protected float age = 0;
-	// animal type field
-	protected AnimalType animalType = AnimalType.NONE;
-
+	
 	// constructor without arguments,
 	// here is mechanism for counting animals
 	public Animal() {
@@ -21,16 +19,6 @@ public abstract class Animal {
 		this();
 		this.name = name;
 		this.age = age;
-	}
-
-	// getter for animalType field
-	public AnimalType getAnimalType() {
-		return animalType;
-	}
-
-	// setter for animalType field
-	public void setAnimalType(AnimalType animalType) {
-		this.animalType = animalType;
 	}
 
 	// getter for name field
@@ -67,7 +55,7 @@ public abstract class Animal {
 
 	@Override
 	public String toString() {
-		return this.animalType + ". Name: " + this.name + ". Age: " + this.age;
+		return this.getClass().getSimpleName() + ". Name: " + this.name + ". Age: " + this.age;
 	}
 
 	@Override
@@ -80,7 +68,7 @@ public abstract class Animal {
 		}
 		Animal innerObject = (Animal) obj;
 		return this.name.equals(innerObject.name) && (Float.compare(this.age, innerObject.age) == 0)
-				&& (this.animalType == innerObject.animalType);
+				&& (Animal.getAnimalsClassName(this).equals(Animal.getAnimalsClassName(innerObject)));
 	}
 
 	@Override

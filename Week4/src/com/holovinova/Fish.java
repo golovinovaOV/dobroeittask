@@ -5,14 +5,13 @@ import org.apache.commons.lang3.NotImplementedException;
 public class Fish extends Animal {
 	// default constructor
 	public Fish() {
-			this.animalType = AnimalType.DOG;
-		}
+
+	}
 
 	// constructor with parameters
 	public Fish(String name, float age) {
-			super(name, age);
-			this.animalType = AnimalType.DOG;
-		}
+		super(name, age);
+	}
 
 	@Override
 	public void voice() {

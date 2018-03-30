@@ -1,7 +1,5 @@
 package com.holovinova.Task3;
 
-import java.util.Arrays;
-
 import com.holovinova.Task1.Animal;
 import com.holovinova.Task1.Cat;
 import com.holovinova.Task1.Dog;
