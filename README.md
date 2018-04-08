@@ -104,3 +104,48 @@
 Создать класс Fish, который будет наследовать Animal. При вызове метода voice, рыба должна выбрасывать NotImplementedException. Добавить несколько рыб в массив с разными животными. Проитерироваться по массиву, и вызвать метод voice на каждом животном. Подсчитать, сколько раз выпадет NotImplementedException, и вывести кол-во на консоль.
 
 * [Solution](https://github.com/golovinovaOV/dobroeittask/blob/master/Week4/src/com/holovinova/Task5/TestFish.java)
+
+## Week 5
+### Task 1
+Написать алгоритм бинарного поиска:
+	int binarySearch(int [] data, int element); <- Ищет элемент element в data, возвращает индекс искомого элемента, или в случае отсутствия: -1.
+
+* [Solution](https://github.com/golovinovaOV/dobroeittask/blob/master/Week5/src/com/holovinova/BinarySearch/BinarySearch.java)
+
+### Task 2
+Создать класс UserLinkedList. Класс должен содержать методы:
+	boolean add(Object element) <- добавление в конец списка.
+	boolean contains(Object element) <- проверка на наличие.
+	int size() <- возвращает размер списка.
+	boolean isEmpty() <- возвращает true, если список пустой.
+	boolean remove(Object element) <- удаление элемента.
+
+* [Solution](https://github.com/golovinovaOV/dobroeittask/blob/master/Week5/src/com/holovinova/CustomLinkedList/CustomLinkedList.java)
+
+### Task 3
+Написать юнит тесты к классу UserLinkedList.
+
+* [Solution](https://github.com/golovinovaOV/dobroeittask/blob/master/Week5/src/com/holovinova/CustomLinkedList/TestCustomLinkedList.java)
+
+### Task 4
+ Написать реализацию бинарного дерева поиска, UserBinarySet. Класс должен содержать методы:
+	boolean add(Object element) <- добавление в дерево.
+	boolean contains(Object element) <- проверка на наличие.
+	int size() <- количество элементов в дереве.
+	boolean isEmpty() <- возвращает true, если дерево пустое.
+	boolean remove(Object element) <- удаление элемента.
+
+* [Solution](https://github.com/golovinovaOV/dobroeittask/blob/master/Week5/src/com/holovinova/BinarySearchTree/BinarySearchTreeSet.java)
+
+### Task 5
+Написать метод дерева void print(), который распечатает все элементы из дерева в отсортированном виде.
+
+* [Solution](https://github.com/golovinovaOV/dobroeittask/blob/master/Week5/src/com/holovinova/BinarySearchTree/BinarySearchTreeSet.java)
+
+### Task 6
+Написать методы для поиска минимального| максимального значения из дерева.
+
+* [Solution](https://github.com/golovinovaOV/dobroeittask/blob/master/Week5/src/com/holovinova/BinarySearchTree/BinarySearchTreeSet.java)
+
+### Task 7
+При реализации структур данных использовать обобщения. Тогда сигнатуры будут не с Object, а с обобщенным типом T.
