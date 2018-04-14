@@ -149,3 +149,15 @@
 
 ### Task 7
 При реализации структур данных использовать обобщения. Тогда сигнатуры будут не с Object, а с обобщенным типом T.
+
+## Week 6
+### Task 1
+Создать UserHashMap. Реализовать операции: put(T key, T value); get(T key);
+
+* [Solution](https://github.com/golovinovaOV/dobroeittask/blob/master/Week6/src/com/holovinova/Task1/CustomHashMap.java)
+
+### Task 2
+Написать метод, который принимает на вход строку и подсчитывает кол-во уникальных символов в строке.* использовать структуру данных из Collection framework.
+Написать метод, который принимает на вход строку, и подсчитывает кол-во вхождений каждого из символов в строке.* использовать структуру данных из Collection framework.
+
+* [Solution](https://github.com/golovinovaOV/dobroeittask/blob/master/Week6/src/com/holovinova/Task2/CharacterCounter.java)
