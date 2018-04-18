@@ -181,4 +181,4 @@
 ### Task 4
 Создать поток, который при старте напечатает своё собственное имя.
 
-* [Solution]((https://github.com/golovinovaOV/dobroeittask/blob/master/Week7/src/com/holovinova/Threads/TestThread.java)
+* [Solution](https://github.com/golovinovaOV/dobroeittask/blob/master/Week7/src/com/holovinova/Threads/TestThread.java)
