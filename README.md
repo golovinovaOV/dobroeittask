@@ -162,7 +162,7 @@
 
 * [Solution](https://github.com/golovinovaOV/dobroeittask/blob/master/Week6/src/com/holovinova/Task2/CharacterCounter.java)
 
-##Week 7
+## Week 7
 ### Task 1
 Создать функциональный интерфейс, который содержит метод, принимающий массив строк и возвращающий int. Реализовать данный интерфейс с помощью лямбды. Метод должен возвращать сумму кол-ва символов во всех строках.
 
@@ -181,4 +181,4 @@
 ### Task 4
 Создать поток, который при старте напечатает своё собственное имя.
 
-* [Solution]((https://github.com/golovinovaOV/dobroeittask/blob/master/Week7/src/com/holovinova/Threads/TestThread.java))
+* [Solution]((https://github.com/golovinovaOV/dobroeittask/blob/master/Week7/src/com/holovinova/Threads/TestThread.java)
