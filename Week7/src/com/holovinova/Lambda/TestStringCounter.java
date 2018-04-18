@@ -1,4 +1,4 @@
-package com.holovinova.Task1;
+package com.holovinova.Lambda;
 
 public class TestStringCounter {
 

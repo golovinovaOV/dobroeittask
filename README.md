@@ -161,3 +161,24 @@
 Написать метод, который принимает на вход строку, и подсчитывает кол-во вхождений каждого из символов в строке.* использовать структуру данных из Collection framework.
 
 * [Solution](https://github.com/golovinovaOV/dobroeittask/blob/master/Week6/src/com/holovinova/Task2/CharacterCounter.java)
+
+##Week 7
+### Task 1
+Создать функциональный интерфейс, который содержит метод, принимающий массив строк и возвращающий int. Реализовать данный интерфейс с помощью лямбды. Метод должен возвращать сумму кол-ва символов во всех строках.
+
+* [Solution](https://github.com/golovinovaOV/dobroeittask/blob/master/Week7/src/com/holovinova/Lambda/TestStringCounter.java)
+
+### Task 2
+Написать метод, который принимает на вход массив животных и возвращает первые 5 животных, чей возраст не больше 5 лет и имя начинается на a,b или c в отсортированном по возрасту виде. Использовать stream api.
+
+* [Solution](https://github.com/golovinovaOV/dobroeittask/blob/master/Week7/src/com/holovinova/StreamApi/TestAnimals.java)
+
+### Task 3
+Написать метод, который принимает на вход массив положительных int, и возвращает коллекцию животных, возраст которых будет равнятся значению из переданного извне массива. Животное должно быть котом, если число четное, в противном случае - собакой. Имя может быть произвольным. Использовать stream api.
+
+* [Solution](https://github.com/golovinovaOV/dobroeittask/blob/master/Week7/src/com/holovinova/StreamApi/TestAnimals.java)
+
+### Task 4
+Создать поток, который при старте напечатает своё собственное имя.
+
+* [Solution]((https://github.com/golovinovaOV/dobroeittask/blob/master/Week7/src/com/holovinova/Threads/TestThread.java))
