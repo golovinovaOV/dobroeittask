@@ -18,18 +18,10 @@ public class Animals {
 		if (animals == null) {
 			return null;
 		}
-		// get stream foe collection of Animal
-		Stream<Animal> filteredList = animals.stream();
-		// get all animals whose age greater or equal to 5
-		filteredList = filteredList.filter(animal -> animal.age >= 5);
-		// get animals whose names begin with 'a', 'b', 'c'
-		filteredList = filteredList.filter(animal -> (animal.name.toLowerCase().charAt(0) == 'a')
-				|| (animal.name.toLowerCase().charAt(0) == 'b') || (animal.name.toLowerCase().charAt(0) == 'c'));
-		// sort by age
-		filteredList = filteredList.sorted((animal1, animal2) -> (int) (animal1.age - animal2.age));
-		// get first 5 filtered animals
-		filteredList = filteredList.limit(5);
-		return filteredList.collect(Collectors.toList());
+		return animals.stream().filter(animal -> animal.age >= 5)
+				.filter(animal -> (animal.name.toLowerCase().charAt(0) == 'a')
+						|| (animal.name.toLowerCase().charAt(0) == 'b') || (animal.name.toLowerCase().charAt(0) == 'c'))
+				.sorted((animal1, animal2) -> (int) (animal1.age - animal2.age)).limit(5).collect(Collectors.toList());
 	}
 
 	/**

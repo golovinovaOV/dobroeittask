@@ -182,3 +182,24 @@
 Создать поток, который при старте напечатает своё собственное имя.
 
 * [Solution](https://github.com/golovinovaOV/dobroeittask/blob/master/Week7/src/com/holovinova/Threads/TestThread.java)
+
+## Week 8 
+### Task 1
+Написать класс, содержащий методы по сериализации и десериализации животных.
+
+* [Solution](https://github.com/golovinovaOV/dobroeittask/blob/master/Week8/src/com/holovinova/serialization/AnimalSerializer.java)
+
+### Task 2
+Написать программу, которая 4 раза считает сумму от 1 до 10000000 и выводит результат на консоль.
+
+* [Solution](https://github.com/golovinovaOV/dobroeittask/blob/master/Week8/src/com/holovinova/threads/TestCalculation.java)
+
+### Task 3
+Написать программу, которая задание 2 выполнит в 4 потоках из пула. Сравнить, быстрее ли параллельное выполнение.
+
+* [Solution](https://github.com/golovinovaOV/dobroeittask/blob/master/Week8/src/com/holovinova/threads/TestCalculation.java)
+
+### Task 4
+Написать программу, демонстрирующую race conditions(доказать, что при одновременной записи в одну и ту же память из более чем одного потока, возможна потеря данных).
+
+* [Solution](https://github.com/golovinovaOV/dobroeittask/blob/master/Week8/src/com/holovinova/racecondition/RaceConditionTest.java)
