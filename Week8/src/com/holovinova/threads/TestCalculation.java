@@ -3,6 +3,8 @@ package com.holovinova.threads;
 import java.util.*;
 
 public class TestCalculation {
+	
+	private static final int END_NUMBER = 1000000000;
 
 	public static void main(String[] args) throws InterruptedException {
 		getSum();
@@ -19,7 +21,7 @@ public class TestCalculation {
 		startTime = System.currentTimeMillis();
 		// get sum 4 times
 		for (int i = 0; i < 4; i++) {
-			System.out.println(i + " Sum: " + SumCalculation.getSum(10000000));
+			System.out.println(i + " Sum: " + SumCalculation.getSum(END_NUMBER));
 		}
 		// get time after calculations
 		endTime = System.currentTimeMillis();
@@ -41,7 +43,7 @@ public class TestCalculation {
 		List<Thread> threads = new ArrayList<Thread>();
 		//create and start threads
 		for (int i = 0; i < 4; i++) {
-			threads.add(new Thread(new ThreadCalculation()));
+			threads.add(new Thread(new ThreadCalculation(END_NUMBER)));
 			threads.get(i).start();
 		}
 		// wait for all threads
