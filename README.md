@@ -203,3 +203,20 @@
 Написать программу, демонстрирующую race conditions(доказать, что при одновременной записи в одну и ту же память из более чем одного потока, возможна потеря данных).
 
 * [Solution](https://github.com/golovinovaOV/dobroeittask/blob/master/Week8/src/com/holovinova/racecondition/RaceConditionTest.java)
+
+## Week 9 
+Создать таблицы animal type, animal.
+Создать AnimalDao класс, который должен содержать:
+	boolean add(Animal animal);
+	boolean remove(long animalId);
+	boolean update(Animal animal); <- обновление по id.
+	Animal findById(long animalId);
+	List<Animal> findAll();
+	List<Animal> findByType(AnimalType type);
+	
+* [Solution](https://github.com/golovinovaOV/dobroeittask/tree/master/Week9)
+
+## Week 10
+Написать веб приложение с использованием spark framework, которое должно позволять работать с AnimalDAO через веб интерфейс.
+
+* [Solution](https://github.com/golovinovaOV/dobroeittask/tree/master/Week10)
