@@ -1,0 +1,10 @@
+CREATE TABLE animal_type(
+	id SERIAL PRIMARY KEY NOT NULL,
+	title TEXT NOT NULL
+);
+CREATE TABLE animal(
+	id SERIAL PRIMARY KEY NOT NULL,
+	name TEXT NOT NULL,
+	age INT NOT NULL,
+	id_animal_type BIGINT NOT NULL REFERENCES animal_type (id)
+);
